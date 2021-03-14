@@ -15,4 +15,13 @@ public class Handyman extends Person {
     public void setLicensePlateNumber(String licensePlateNumber) {
         this.licensePlateNumber = licensePlateNumber;
     }
+
+    public void eat(String food, boolean like) {
+        super.eat(food);
+        if (like) {
+            System.out.print(". And I like it.");
+        } else {
+            System.out.print(". And I don't like it.");
+        }
+    }
 }

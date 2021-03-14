@@ -18,5 +18,6 @@ public class Main {
 
         Handyman sjaak = new Handyman("Sjaak", "Winkelhaak", "Krottewijkje", "012345678", "92-KRH-4");
         System.out.println("Het kenteken van de werkbus van " + sjaak.getFirstName() + " is: " + sjaak.getLicensePlateNumber() + ".");
+        sjaak.eat("Chips", true);
     }
 }
