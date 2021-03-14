@@ -14,5 +14,9 @@ public class Main {
         System.out.println(piet.getFirstName() + " " + piet.getLastName() + " zijn BSN-nummer is: " + hans.getBsnNumber());
         piet.work();
 
+        System.out.println("\n");
+
+        Handyman sjaak = new Handyman("Sjaak", "Winkelhaak", "Krottewijkje", "012345678", "92-KRH-4");
+        System.out.println("Het kenteken van de werkbus van " + sjaak.getFirstName() + " is: " + sjaak.getLicensePlateNumber() + ".");
     }
 }
