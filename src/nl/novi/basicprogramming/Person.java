@@ -42,7 +42,7 @@ public class Person {
     }
 
     public void eat(String food) {
-        System.out.println("I eat " + food + ".");
+        System.out.print("I eat " + food);
     }
 
     public void work() {
