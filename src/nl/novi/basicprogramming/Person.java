@@ -4,13 +4,13 @@ public class Person {
     private String firstName;
     private String lastName;
     private String streetName;
-    private String bsnNumber;
+    private double balance;
 
-    public Person(String firstName, String lastName, String streetName, String bsnNumber) {
+    public Person(String firstName, String lastName, String streetName, double balance) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.streetName = streetName;
-        this.bsnNumber = bsnNumber;
+        this.balance = balance;
     }
 
     public String getFirstName() {
@@ -34,12 +34,8 @@ public class Person {
         this.streetName = streetName;
     }
 
-    public String getBsnNumber() {
-        return bsnNumber;
-    }
-    public void setBsnNumber(String bsnNumber) {
-        this.bsnNumber = bsnNumber;
-    }
+    public double getBalance() { return balance;}
+    public void setBalance(double balance) { this.balance = balance;}
 
     public void eat(String food) {
         System.out.print("I eat " + food);

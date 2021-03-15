@@ -3,8 +3,8 @@ package nl.novi.basicprogramming;
 public class Doctor extends Person {
     private String hospitalName;
 
-    public Doctor(String firstName, String lastName, String streetName, String bsnNumber, String hospitalName) {
-        super(firstName, lastName, streetName, bsnNumber);
+    public Doctor(String firstName, String lastName, String streetName, double balance, String hospitalName) {
+        super(firstName, lastName, streetName, balance);
         this.hospitalName = hospitalName;
     }
 

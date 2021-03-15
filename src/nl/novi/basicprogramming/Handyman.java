@@ -3,9 +3,8 @@ package nl.novi.basicprogramming;
 public class Handyman extends Person {
     private String licensePlateNumber;
 
-    public Handyman(String firstName, String lastName, String streetName, String bsnNumber, String licensePlateNumber) {
-        super(firstName, lastName, streetName, bsnNumber);
-        this.licensePlateNumber = licensePlateNumber;
+    public Handyman(String firstName, String lastName, String streetName, double balance) {
+        super(firstName, lastName, streetName, balance);
     }
 
     public String getLicensePlateNumber() {
